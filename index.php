@@ -63,7 +63,7 @@ if(isset($_POST["num-de-caracter"])){
 <body>
 <form  method="POST" action="">
     <label for="num-de-car">número de caracter</label>
-    <input type="number" min= "8" value="8" name="num-de-caracter" id=""> <br>
+    <input type="number"  value="10" name="num-de-caracter" id=""> <br>
 
 
     <label for="upper">letras maiusculas</label>
