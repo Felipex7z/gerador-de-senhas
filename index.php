@@ -8,7 +8,7 @@ if(isset($_POST["num-de-caracter"])){
     $simbols = isset($_POST["caracters"]);
 
     if(!$letrasUpper && !$letrasLow && !$numbers && !$simbols){
-        echo "{ERRO} marque alguam alternativa para que sua senha ser gerada";
+        echo "{ERRO} marque alguma alternativa para que sua senha ser gerada";
     }
 
 
